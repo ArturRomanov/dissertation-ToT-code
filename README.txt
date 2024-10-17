@@ -24,3 +24,11 @@ References
 Ollama, 2024a. Ollama [computer program]. Available from: https://ollama.com [Accessed 1 September 2024].
 Ollama, 2024b. mixtral 8x7b-instruct-v0.1-fp16 [Online]. Available from: https://ollama.com/library/mixtral:8x7b-instruct-v0.1-fp16 [Accessed 25 September 2024].
 Ollama, 2024c. README.md [computer program]. Available from: https://github.com/ollama/ollama/blob/main/README.md [Accessed 1 September 2024].
+
+Please note, just in case it is needed, the following code was not needed in ToT-data-answer-generator-and-checker notebook in the generate_and_check_answers function in the second if statement. 
+However, it was needed in, for example, ToT-evaluate-Mixtral notebook in the generate_and_check_answers function in the second if statement.
+
+# Code adapted from: pandas, 2024. pandas.isna (v.2.2) [Online]. 
+# Available from: https://pandas.pydata.org/docs/reference/api/pandas.isna.html#pandas-isna [Accessed 15 October 2024].
+pd.isna(dataset_record.generated_answer) == True
+#

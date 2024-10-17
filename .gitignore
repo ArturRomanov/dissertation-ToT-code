@@ -2,8 +2,9 @@
 .DS_Store
 train-dataset-for-tuning/*
 !train-dataset-for-tuning/train_dataset_217_3245_3245.csv
+validation-dataset-for-tuning/*
+!validation-dataset-for-tuning/validation_dataset_38_557_557.csv
 full_test_dataset.csv
 full_train_dataset.csv
 full_validation_dataset.csv
-ToT-evaluate-Mixtral.ipynb
 ToT-tuning.ipynb
