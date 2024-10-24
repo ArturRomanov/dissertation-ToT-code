@@ -7,7 +7,7 @@ To write to install Ollama and according model
 To write how to run ToT-prompt-test
 To include the required things according to the Llama or Mistral Apache licence
 To consider to tell that created the git repository with the guide https://github.com/git-guides/git-init
-
+To indicate that have to register at Hugging Face
 
 
 

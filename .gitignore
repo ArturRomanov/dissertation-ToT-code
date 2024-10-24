@@ -1,5 +1,30 @@
 .venv
 .DS_Store
+# The value reused from the folder name automatically created by the code in ToT-evaluate-Mistral notebook in Load section of the notebook with the following references:
+# Mistral AI, 2024. Model Card for Mistral-7B-Instruct-v0.3 [Online]. s.l.: Hugging Face. 
+# Available from: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3 [Accessed 19 October 2024].
+# Hugging Face, n.d. Auto Classes. AutoModelForCausalLM. from_pretrained (v.4.45.2) [Online].
+# Availabel from: https://huggingface.co/docs/transformers/en/model_doc/auto#transformers.AutoModelForCausalLM.from_pretrained [Accessed 19 October 2024].
+# Hugging Face, n.d. User access tokens [Online]. 
+# Available from: https://huggingface.co/docs/hub/en/security-tokens [Accessed 19 October 2024].
+# Hugging Face, n.d. Auto Classes. AutoTokenizer. from_pretrained (v.4.45.2) [Online].
+# Available from: https://huggingface.co/docs/transformers/en/model_doc/auto#transformers.AutoTokenizer.from_pretrained [Accessed 20 October 2024].
+# Hugging Face, n.d. Accessing Private/Gated Models (v.3.0.0) [Online].
+# Available from: https://huggingface.co/docs/transformers.js/en/guides/private [Accessed 20 October 2024].
+models--mistralai--Mistral-7B-Instruct-v0.3
+#
+test-dataset-for-evaluation-mixtral-simple/*
+!test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671.csv
+!test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671_string_answer_evaluated_answer_evaluated.csv
+!test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671_string_answer_evaluated_extracted_answer_evaluated.csv
+!test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671_string_answer_evaluated_extracted.csv
+!test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671_string_answer_evaluated.csv
+test-dataset-for-evaluation-mixtral-tot/*
+!test-dataset-for-evaluation-mixtral-tot/test_dataset_45_671_671.csv
+!test-dataset-for-evaluation-mixtral-tot/test_dataset_45_671_671_string_answer_evaluated_answer_evaluated.csv
+!test-dataset-for-evaluation-mixtral-tot/test_dataset_45_671_671_string_answer_evaluated_extracted_answer_evaluated.csv
+!test-dataset-for-evaluation-mixtral-tot/test_dataset_45_671_671_string_answer_evaluated_extracted.csv
+!test-dataset-for-evaluation-mixtral-tot/test_dataset_45_671_671_string_answer_evaluated.csv
 train-dataset-for-tuning/*
 !train-dataset-for-tuning/train_dataset_217_3245_3245.csv
 validation-dataset-for-tuning/*
