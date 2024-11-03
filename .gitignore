@@ -13,6 +13,18 @@
 # Available from: https://huggingface.co/docs/transformers.js/en/guides/private [Accessed 20 October 2024].
 models--mistralai--Mistral-7B-Instruct-v0.3
 #
+test-dataset-for-evaluation-mistral-simple/*
+!test-dataset-for-evaluation-mistral-simple/test_dataset_45_671_671.csv
+!test-dataset-for-evaluation-mistral-simple/test_dataset_45_671_671_string_answer_evaluated_answer_evaluated.csv
+!test-dataset-for-evaluation-mistral-simple/test_dataset_45_671_671_string_answer_evaluated_extracted_answer_evaluated.csv
+!test-dataset-for-evaluation-mistral-simple/test_dataset_45_671_671_string_answer_evaluated_extracted.csv
+!test-dataset-for-evaluation-mistral-simple/test_dataset_45_671_671_string_answer_evaluated.csv
+test-dataset-for-evaluation-mistral-tot/*
+!test-dataset-for-evaluation-mistral-tot/test_dataset_45_671_671.csv
+!test-dataset-for-evaluation-mistral-tot/test_dataset_45_671_671_string_answer_evaluated_answer_evaluated.csv
+!test-dataset-for-evaluation-mistral-tot/test_dataset_45_671_671_string_answer_evaluated_extracted_answer_evaluated.csv
+!test-dataset-for-evaluation-mistral-tot/test_dataset_45_671_671_string_answer_evaluated_extracted.csv
+!test-dataset-for-evaluation-mistral-tot/test_dataset_45_671_671_string_answer_evaluated.csv
 test-dataset-for-evaluation-mixtral-simple/*
 !test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671.csv
 !test-dataset-for-evaluation-mixtral-simple/test_dataset_45_671_671_string_answer_evaluated_answer_evaluated.csv
