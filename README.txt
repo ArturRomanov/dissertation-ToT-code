@@ -8,7 +8,7 @@ To write how to run ToT-prompt-test
 To include the required things according to the Llama or Mistral Apache licence
 To consider to tell that created the git repository with the guide https://github.com/git-guides/git-init
 To indicate that have to register at Hugging Face
-
+Some optional outputs in ToT-evaluate-Mistral for Mistral simple generate and check answers and Mistral ToT generate and check answers were removed because GitHub could not display the code because the file was too large
 
 
 

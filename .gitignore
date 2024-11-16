@@ -44,4 +44,3 @@ validation-dataset-for-tuning/*
 full_test_dataset.csv
 full_train_dataset.csv
 full_validation_dataset.csv
-ToT-tuning.ipynb
