@@ -9,7 +9,7 @@ To include the required things according to the Llama or Mistral Apache licence
 To consider to tell that created the git repository with the guide https://github.com/git-guides/git-init
 To indicate that have to register at Hugging Face
 Some optional outputs in ToT-evaluate-Mistral for Mistral simple generate and check answers and Mistral ToT generate and check answers were removed because GitHub could not display the code because the file was too large
-
+To add references for the dataset here, to describe the difference between the ToT tuning files
 
 
 Please note, the code was run and tested on MacBook M3 Max with RAM 128 GB. The provided instructions assume that you use the same computer if you want to run the code. If another computer or environment is used, then some adjustments could be required to run the code, especially, the code related to large language models.
